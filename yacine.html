@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YacineTravel</title>
+</head>
+<body>
+  <div class="container">  
+    <form id="contact" action="" method="post">
+      <link rel="stylesheet" type="text/css" href="yacine.css" />
+      <h3>Contact YacineTravel</h3>
+      <h4>Contactez moi juste ici</h4>
+      <fieldset>
+        <input placeholder="nom" type="nom" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="prenom" type="prenom" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="mail" type="mail" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="numero de telephone" type="tél" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="votre message" tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="envoyer" onclick="myBtn()" type="envoyer" id="contact-submit" data-submit="...Sending">envoyer</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+<script type="text/javascript">
+  
+function myBtn() {
+  document.getElementById("page1").style.marginLeft = "-100%";
+
+}
+
+</script>
+</html>
+
